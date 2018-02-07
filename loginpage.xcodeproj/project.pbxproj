@@ -15,6 +15,7 @@
 		FB54B30E20181CA1004830D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB54B30C20181CA1004830D4 /* LaunchScreen.storyboard */; };
 		FB54B31920181CA1004830D4 /* loginpageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B31820181CA1004830D4 /* loginpageTests.swift */; };
 		FB54B32420181CA1004830D4 /* loginpageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B32320181CA1004830D4 /* loginpageUITests.swift */; };
+		FB54B33220181D03004830D4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54B33120181D03004830D4 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB54B31F20181CA1004830D4 /* loginpageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginpageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB54B32320181CA1004830D4 /* loginpageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginpageUITests.swift; sourceTree = "<group>"; };
 		FB54B32520181CA1004830D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB54B33120181D03004830D4 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FB54B30C20181CA1004830D4 /* LaunchScreen.storyboard */,
 				FB54B30F20181CA1004830D4 /* Info.plist */,
 				FB54B30720181CA1004830D4 /* loginpage.xcdatamodeld */,
+				FB54B33120181D03004830D4 /* LoginController.swift */,
 			);
 			path = loginpage;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB54B30920181CA1004830D4 /* loginpage.xcdatamodeld in Sources */,
+				FB54B33220181D03004830D4 /* LoginController.swift in Sources */,
 				FB54B30320181CA1004830D4 /* ViewController.swift in Sources */,
 				FB54B30120181CA1004830D4 /* AppDelegate.swift in Sources */,
 			);
