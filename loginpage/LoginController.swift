@@ -38,6 +38,7 @@ class LoginController: UIViewController {
     let PasswordTextField : UITextField = {
         let textField = UITextField ()
         textField.placeholder = "Password:"
+        textField.isSecureTextEntry = true
         textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()
